@@ -1,0 +1,163 @@
+.container-profile{
+    max-width: 1800px;
+    margin: auto;
+    padding-top: 60px;
+}.profile-page{
+
+padding: 20px;
+display: flex;
+    flex-wrap: wrap;
+}
+.profile-page  .card-profile{
+    flex: 32%;
+}
+
+.profile-page > .content-left{
+    flex: 64%;
+    background-color: rgb(242, 242, 242);
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    margin-left: 20px;
+    /* padding: 20px; */
+    /* background-color: red; */
+}
+.content-left-cards{
+    display: flex;
+    overflow-y: scroll;
+    height: 700px;
+    margin-left: 20px;
+    flex-wrap: wrap;
+    /* justify-content: space-evenly */
+}
+.content-left-cards .card-content-left{
+    flex: 32%;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+ 
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+ 
+::-webkit-scrollbar-thumb {
+  background-color: rgb(37, 202, 0);
+  outline: none;
+}
+
+.card-content-left{
+    width:100%;
+    background-color: white;
+    max-width:320px;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 12px;
+    }
+    .content-left > h1{
+        margin-top: 20px;
+        margin-left: 40px;
+        margin-bottom: 20px;
+    }
+
+
+
+
+    /* Profile Card Css */
+.card-profile{
+    background-color: white;
+    border-radius: 30px;
+    padding:20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    max-width: 450px;
+    margin: auto;
+}
+.card-content{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-content > div {
+    flex: 50%;
+}
+.card-content-main{
+    padding: 10px;
+}
+.card-name{
+    width: 100%;
+}
+.card-phara{
+    width: 100%;
+}
+.card-name > h4{
+    font-size: 20px;
+}
+.card-phara > span{
+    font-size: 12px;
+    font-weight: 300;
+}
+.card-details{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-details > div{
+    flex: 50%;
+    width:80%;
+    /* border-bottom: 1px solid black; */
+}
+
+.bt-bb{
+    border-bottom: 1px solid black;
+    margin-top:7px;
+    width:80%;
+
+}
+.bt-ff{
+    border-bottom: 1px solid black;
+    margin-top:7px;
+    width:90%;
+
+}
+.card-details > .userName > span , .card-details > .phone > span{
+    font-size: 17px;
+    font-weight: 300;
+}
+.card-details-mail > .email{
+    font-size: 17px;
+    font-weight: 300;
+}
+.sms-alert{
+    background: linear-gradient(20deg,rgba(255, 16, 92,1) 10%, rgb(255, 213, 0) 70%);
+    -webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.sms-alert > h3{
+font-size: 20px;
+}
+.btn-UI{
+    justify-content: center;
+    margin: auto;
+}
+.btn-save{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 70px;
+    padding-right: 70px;
+    /* border: 1px solid black; */
+    margin: auto;
+    background: rgb(255,216,16);
+    background: linear-gradient(87deg, rgba(255,216,16,1) 0%, rgba(255,0,232,1) 74%);
+
+    color: white;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer
+}
+.btn-save:hover{
+    background: rgb(255,216,16);
+    background: linear-gradient(92deg, rgba(255,216,16,1) 25%, rgba(255,0,232,1) 100%);
+}
+.card-img > img{
+    border-radius: 10px;
+}

@@ -1,0 +1,109 @@
+.item-1{
+    width: 100%;
+    text-align:center ;
+    display: flex;
+    align-items: right;
+    justify-content: right;
+}
+ .content{
+    background-image: linear-gradient(to right top, #00610b, #00860e, #05ad0f, #12d50c, #22ff00);
+    height:600px;
+    width:500px;
+    border-radius:10px;
+}
+.item-2{
+    width: 100%;
+    text-align:center ;
+    display: flex;
+    align-items: left;
+    justify-content: left;
+}
+
+.main {
+    padding-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main > div {
+    flex: 50%; 
+    /* box-shadow: 0 0 0 1px black; */
+    margin-bottom: 10px;
+  }
+  .login-card{
+    min-width: 400px;
+    margin: 20px;
+    border: 1px solid black;
+    max-width: 450px;
+  }
+  .login-card .header{
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  .login-card input{
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+    width: 70%;
+    height: 40px;
+    outline: none;
+    padding: 10px;
+  }
+  .btn {
+    appearance: none;
+      -webkit-appearance: none;
+    font-family: sans-serif;
+    cursor: pointer;
+    padding: 12px 20%;
+    max-width: 500px;
+    border-radius: 5px;
+    border: 0px;
+      -webkit-transition: background-color 100ms linear;
+      -ms-transition: background-color 100ms linear;
+       transition: background-color 100ms linear;
+  }
+  
+  .btn:focus, .btn.focus {
+    outline: 0;
+  }
+  .btn-round-1 {
+    border-radius: 8px;
+  }
+  
+.btn-primary {
+    background: #000dff;
+    /* width: 500px; */
+    color: #ffffff;
+  }
+  
+  .btn-primary:hover {
+    background: #000bdd;
+    color: #ffffff;
+  }
+hr{
+  margin: auto;
+  width: 100%;
+}
+._aa4b{
+    margin-bottom: 20px;
+}
+.dash{
+    width: 30%;
+
+}
+
+.dash-main {
+    padding-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.signup-card{
+
+}
+.content h1{
+    margin-top:60px;
+    margin-bottom:60px;
+    color: white;
+}
+.content img{
+    width:80%;
+    border-radius: 20px;
+}
