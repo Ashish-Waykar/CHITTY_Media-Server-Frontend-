@@ -116,7 +116,7 @@ const Profile=()=>{
                     <div className="card-content-left">
                         <h1>Hello Ashish Here</h1>
                     </div>
-                    <div className="card-content-left">
+                    <div className="card-content-left"> 
                         <h1>Hello Ashish Here</h1>
                     </div>
                     <div className="card-content-left">
